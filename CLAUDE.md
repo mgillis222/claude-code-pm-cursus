@@ -14,6 +14,9 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
   geïnstalleerd met `fspm get claude-code-for-pms`. Alleen zo herkent `fspm` deze map als cursusmap
   en werkt `fspm progress complete`. De oude, gekopieerde versies staan in `_oud-lesmateriaal/`
   (niet in Git) en in de Git-geschiedenis; die map mag weg.
+- Op 2026-10-08 is ook level 2 (`start-2-*`) opnieuw geïnstalleerd met `fspm get cc-pms-2-1`
+  (`fspm get claude-code-for-pms` installeert alleen level 1). De oude kopieën staan in `_oud-lesmateriaal/skills/`.
+  Voor level 3 en 4 werkt vermoedelijk hetzelfde: lesmappen apart zetten, dan `fspm get cc-pms-3-1-1` / `cc-pms-4-1`.
 - `fspm` overschrijft nooit bestanden die het niet zelf heeft geïnstalleerd. Lukt een latere `fspm get`
   voor level 2 t/m 4 niet, zet dan eerst de gekopieerde lesmappen van dat level apart.
 - Updates van de cursus: opnieuw ophalen uit de GitHub-repo (sparse checkout van `course-materials`,

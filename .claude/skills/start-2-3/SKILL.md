@@ -4,6 +4,9 @@ description: |
   2.3 Product Strategy. Use when the student types /start-2-3.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, WebSearch, WebFetch, Skill]
+fspm_item: cc-pms-workflows
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup
@@ -639,3 +642,7 @@ Then close out with the student's options, in natural language (never as a comma
 - End with the next step: when you're ready for the next lesson, start a fresh chat (New Chat), then:
 
 `/start-3-1-1`
+
+## If the next module isn't installed
+
+`/start-3-1-1` only exists once its module is on this machine. If the command isn't recognized, run `fspm get cc-pms-nano-banana` from this folder (if you can't run commands, have the learner paste `! fspm get cc-pms-nano-banana`), then have them type `/start-3-1-1` in a fresh session.

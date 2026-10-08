@@ -49,3 +49,11 @@ Voorbeelden van uitgewerkte stijlbestanden: [communication-styles](communication
 
 ### Idee voor later
 Eén persoonlijke skill `pm-communicatie` maken in `C:\Users\Myrthe Gillis\.claude\skills\`, met per stijl een bestand. Dan werkt hij in al mijn projecten. Beste aanpak: per stijl een echt voorbeeld nemen dat ik goed vond en daar de regels uit halen. Voor werk alleen algemene regels, geen Picnic-voorbeelden of namen.
+
+## 2026-10-08 · Module 2.1 (Write a PRD)
+
+### Socratisch vragen: is dat standaard?
+- De methode is oud en bekend (Socrates): niet zelf antwoorden geven, maar vragen stellen zodat iemand scherper nadenkt en aannames ontdekt.
+- [socratic-questioning.md](socratic-questioning.md) is geen officiële standaard, maar de eigen vragenlijst van de cursus, in vijf groepen: probleem, oplossing, succes, afbakening en strategie.
+- Dezelfde soort vragen zie je overal in productmanagement: Marty Cagan (*Inspired*, "Opportunity Assessment"), Amazon "Working Backwards" (persbericht en veelgestelde vragen vooraf), en non-goals en "why now" in de meeste PRD-templates.
+- Slim: zo'n vragenbestand met @ meegeven, zodat Claude jouw vaste aanpak volgt. Je kunt een eigen versie maken met de vragen die je team of manager altijd stelt.

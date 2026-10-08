@@ -1,6 +1,9 @@
 ---
 name: pptx
 description: Create PowerPoint presentations from markdown documents. Use this skill when users need to transform strategy documents, PRDs, or analysis into professional slide decks for stakeholder presentations.
+fspm_item: cc-pms-workflows
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 # PowerPoint Presentation Creation Skill

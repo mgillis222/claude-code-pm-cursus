@@ -4,6 +4,9 @@ description: |
   2.1 Write a PRD. Use when the student types /start-2-1.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, Task]
+fspm_item: cc-pms-workflows
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

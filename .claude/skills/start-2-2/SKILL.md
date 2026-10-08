@@ -4,6 +4,9 @@ description: |
   2.2 Analyze Data. Use when the student types /start-2-2.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-workflows
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

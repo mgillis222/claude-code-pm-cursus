@@ -4,6 +4,9 @@ description: |
   1.2 Visualizing Files. Use when the student types /start-1-2.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-foundation
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

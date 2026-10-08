@@ -4,6 +4,9 @@ description: |
   1.4 Agents. Use when the student types /start-1-4.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, Task]
+fspm_item: cc-pms-foundation
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

@@ -4,6 +4,9 @@ description: |
   1.3 First Tasks. Use when the student types /start-1-3.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, WebSearch, WebFetch]
+fspm_item: cc-pms-foundation
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

@@ -4,6 +4,9 @@ description: |
   1.7 Claude Desktop Navigation. Use when the student types /start-1-7.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, WebSearch, WebFetch]
+fspm_item: cc-pms-foundation
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup
@@ -110,3 +113,7 @@ Then close out with the student's options, in natural language (never as a comma
 - End with the next step: when you're ready for the next lesson, start a fresh chat (New Chat), then:
 
 `/start-2-1`
+
+## If the next module isn't installed
+
+`/start-2-1` only exists once its module is on this machine. If the command isn't recognized, run `fspm get cc-pms-workflows` from this folder (if you can't run commands, have the learner paste `! fspm get cc-pms-workflows`), then have them type `/start-2-1` in a fresh session.

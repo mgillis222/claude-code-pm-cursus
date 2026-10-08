@@ -4,6 +4,9 @@ description: |
   1.1 Welcome. Use when the student types /start-1-1.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-foundation
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

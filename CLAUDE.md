@@ -7,8 +7,15 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
 ## Herkomst
 - Lesmateriaal: map `course-materials` uit https://github.com/carlvellotti/free-ai-courses,
   opgehaald met Git op 2026-10-08.
-- De officiële installatie loopt via de "FSPM CLI" (`fspm`). Die is bewust niet geïnstalleerd, omdat er
-  op de werklaptop niets geïnstalleerd mag worden. Het lesmateriaal is gewoon gekopieerd.
+- De "FSPM CLI" (`fspm`) staat wél op de laptop, in de eigen gebruikersmap
+  (`AppData\Local\fspm`, geen beheerdersrechten nodig). Myrthe is ingelogd met haar Full Stack PM-account,
+  zodat voortgang en certificaat worden bijgehouden (cursus-id `claude-code-for-pms`).
+- Op 2026-10-08 zijn de lessen van level 1 (`.claude/skills/start-1-*` en `.claude/rules`) opnieuw
+  geïnstalleerd met `fspm get claude-code-for-pms`. Alleen zo herkent `fspm` deze map als cursusmap
+  en werkt `fspm progress complete`. De oude, gekopieerde versies staan in `_oud-lesmateriaal/`
+  (niet in Git) en in de Git-geschiedenis; die map mag weg.
+- `fspm` overschrijft nooit bestanden die het niet zelf heeft geïnstalleerd. Lukt een latere `fspm get`
+  voor level 2 t/m 4 niet, zet dan eerst de gekopieerde lesmappen van dat level apart.
 - Updates van de cursus: opnieuw ophalen uit de GitHub-repo (sparse checkout van `course-materials`,
   met `core.longpaths=true` omdat sommige paden te lang zijn voor Windows).
 

@@ -16,7 +16,8 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
   (niet in Git) en in de Git-geschiedenis; die map mag weg.
 - Op 2026-10-08 is ook level 2 (`start-2-*`) opnieuw geïnstalleerd met `fspm get cc-pms-2-1`
   (`fspm get claude-code-for-pms` installeert alleen level 1). De oude kopieën staan in `_oud-lesmateriaal/skills/`.
-  Voor level 3 en 4 werkt vermoedelijk hetzelfde: lesmappen apart zetten, dan `fspm get cc-pms-3-1-1` / `cc-pms-4-1`.
+  Op 2026-10-09 is level 3 (`start-3-*`) zo opnieuw geïnstalleerd met `fspm get cc-pms-3-1-1`; oude kopieën in `_oud-lesmateriaal/skills/`.
+  Voor level 4 werkt vermoedelijk hetzelfde: lesmappen apart zetten, dan `fspm get cc-pms-4-1`.
 - `fspm` overschrijft nooit bestanden die het niet zelf heeft geïnstalleerd. Lukt een latere `fspm get`
   voor level 2 t/m 4 niet, zet dan eerst de gekopieerde lesmappen van dat level apart.
 - Updates van de cursus: opnieuw ophalen uit de GitHub-repo (sparse checkout van `course-materials`,
@@ -35,3 +36,6 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
 - De lessen zelf vallen onder het Claude-abonnement.
 - Module 3 (Nano Banana) gebruikt de Google Gemini API (`requirements.txt`: google-genai) en een API-sleutel
   in `.env`. Dat kan geld kosten. Eerst overleggen, en Python draait in WSL in een eigen `.venv`.
+- Gemini: billing staat aan op Myrthes privé-Google-account (ca. $0,10 per afbeelding). Nieuwe AI Studio-sleutels
+  beginnen met `AQ.` (niet `AIza`), dat is normaal. Een 403 "API has not been used in project" betekent dat de
+  Gemini API in het Google-project nog moet aanslaan; na inschakelen een paar minuten wachten.

@@ -4,6 +4,9 @@ description: |
   3.2.1 Users & Product Visuals. Use when the student types /start-3-2-1.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-nano-banana
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

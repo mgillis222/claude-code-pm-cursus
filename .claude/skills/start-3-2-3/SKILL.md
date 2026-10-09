@@ -4,6 +4,9 @@ description: |
   3.2.3 Marketing & Launch Assets. Use when the student types /start-3-2-3.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-nano-banana
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup
@@ -293,3 +296,7 @@ Then close out with the student's options, in natural language (never as a comma
 - End with the next step: when you're ready for the next lesson, start a fresh chat (New Chat), then:
 
 `/start-4-1`
+
+## If the next module isn't installed
+
+`/start-4-1` only exists once its module is on this machine. If the command isn't recognized, run `fspm get cc-pms-vibe-coding` from this folder (if you can't run commands, have the learner paste `! fspm get cc-pms-vibe-coding`), then have them type `/start-4-1` in a fresh session.

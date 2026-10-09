@@ -1,4 +1,4 @@
-<!-- fspm_item: cc-pms-workflows; fspm_version: 1.0.6; fspm_platform: claude-code-desktop -->
+<!-- fspm_item: cc-pms-nano-banana; fspm_version: 1.0.6; fspm_platform: claude-code-desktop -->
 # Teaching Rules
 
 These rules apply to every course lesson.

@@ -4,6 +4,9 @@ description: |
   3.1.4 Building Your Style Database. Use when the student types /start-3-1-4.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-nano-banana
+fspm_version: 1.0.6
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

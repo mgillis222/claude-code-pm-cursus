@@ -14,7 +14,7 @@ from google import genai
 from google.genai import types
 
 # Gemini 2.5 Pro for vision/understanding (excellent at image analysis)
-VISION_MODEL = "gemini-2.5-pro"
+VISION_MODEL = "gemini-3.1-pro-preview"  # gemini-2.5-pro is niet meer beschikbaar voor nieuwe gebruikers
 
 STYLE_EXTRACTION_PROMPT = """Analyze this image and deconstruct its complete visual style. I want to be able to recreate this exact aesthetic for completely different subjects.
 

@@ -57,3 +57,18 @@ Eén persoonlijke skill `pm-communicatie` maken in `C:\Users\Myrthe Gillis\.clau
 - [socratic-questioning.md](socratic-questioning.md) is geen officiële standaard, maar de eigen vragenlijst van de cursus, in vijf groepen: probleem, oplossing, succes, afbakening en strategie.
 - Dezelfde soort vragen zie je overal in productmanagement: Marty Cagan (*Inspired*, "Opportunity Assessment"), Amazon "Working Backwards" (persbericht en veelgestelde vragen vooraf), en non-goals en "why now" in de meeste PRD-templates.
 - Slim: zo'n vragenbestand met @ meegeven, zodat Claude jouw vaste aanpak volgt. Je kunt een eigen versie maken met de vragen die je team of manager altijd stelt.
+
+## 2026-10-09 · Module 3.1.4 (Building Your Style Database)
+
+### Waar vind ik goede promptverzamelingen voor Nano Banana?
+- **Officieel:** [Google Cloud: Ultimate prompting guide for Nano Banana](https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana). Best practices, prompt-frameworks en voorbeelden.
+- **GitHub (gratis):**
+  - [YouMind-OpenLab/awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts): de grootste (10.000+ prompts met voorbeeldafbeeldingen, met webgalerij).
+  - [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro): kleiner, zorgvuldig samengesteld, geavanceerde prompts.
+  - [PicoTrex/awesome-nano-banana-images](https://github.com/PicoTrex/awesome-nano-banana-images): galerij met uitleg, ook over consistente gezichten.
+- **Galerij:** Banana Prompts (communitygalerij, bij elke afbeelding de exacte prompt).
+- **Inspiratie zonder prompt:** Pinterest, Dribbble, Behance → stijl eruit halen met `style_extract.py` (methode 3).
+- **Werkwijze:** vinden → testen → alleen bewaren wat werkt ("zet dit in mijn bibliotheek"). Voor PM-visuals (diagrammen, mockups) is de eigen [style-library.html](style-library.html) sterker dan deze verzamelingen.
+
+### Les van de profielfoto
+Een echt gezicht precies goed krijgen is het moeilijkst. Beter: één scherpe foto bewerken (alleen achtergrond en kleding laten veranderen) dan een nieuwe laten maken. Referenties groot, recht van voren, daglicht, zonder pet.

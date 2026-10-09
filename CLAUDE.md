@@ -31,6 +31,12 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
 
 ## Besluiten
 - Alleen het fictieve TaskFlow-materiaal gebruiken, geen Picnic-informatie.
+- Eigen foto's en profielfoto-experimenten staan in `data/` (`data/profielfoto/`), dus niet in Git. Nooit in
+  `outputs/` laten staan; `image_gen.py` slaat daar standaard op, dus daarna verplaatsen.
+- Stijlbibliotheek (`style-library.html`): eigen stijlen #124 (aquarel) en #125 (isometrische foto). De cursus
+  levert geen miniaturen mee voor de startstijlen (ook niet in de GitHub-geschiedenis); 14 zijn zelf gemaakt.
+  Bekijk de bibliotheek in de gewone browser, het browserpaneel van de app toont geen lokale plaatjes.
+- `style_extract.py`: model aangepast naar `gemini-3.1-pro-preview` (`gemini-2.5-pro` is niet meer beschikbaar).
 
 ## Kosten
 - De lessen zelf vallen onder het Claude-abonnement.

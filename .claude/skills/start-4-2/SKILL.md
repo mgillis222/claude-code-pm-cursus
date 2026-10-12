@@ -4,6 +4,9 @@ description: |
   4.2 Plan. Use when the student types /start-4-2.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion, WebSearch, WebFetch]
+fspm_item: cc-pms-vibe-coding
+fspm_version: 1.0.5
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

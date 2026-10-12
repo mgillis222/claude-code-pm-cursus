@@ -4,6 +4,9 @@ description: |
   4.3 Build & Iterate. Use when the student types /start-4-3.
 disable-model-invocation: true
 allowed-tools: [Read, Write, Bash, AskUserQuestion]
+fspm_item: cc-pms-vibe-coding
+fspm_version: 1.0.5
+fspm_platform: claude-code-desktop
 ---
 
 ## Setup

@@ -17,7 +17,7 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
 - Op 2026-10-08 is ook level 2 (`start-2-*`) opnieuw geïnstalleerd met `fspm get cc-pms-2-1`
   (`fspm get claude-code-for-pms` installeert alleen level 1). De oude kopieën staan in `_oud-lesmateriaal/skills/`.
   Op 2026-10-09 is level 3 (`start-3-*`) zo opnieuw geïnstalleerd met `fspm get cc-pms-3-1-1`; oude kopieën in `_oud-lesmateriaal/skills/`.
-  Voor level 4 werkt vermoedelijk hetzelfde: lesmappen apart zetten, dan `fspm get cc-pms-4-1`.
+  Op 2026-10-12 is level 4 (`start-4-*`) zo opnieuw geïnstalleerd met `fspm get cc-pms-4-1`; oude kopieën in `_oud-lesmateriaal/skills/`.
 - `fspm` overschrijft nooit bestanden die het niet zelf heeft geïnstalleerd. Lukt een latere `fspm get`
   voor level 2 t/m 4 niet, zet dan eerst de gekopieerde lesmappen van dat level apart.
 - Updates van de cursus: opnieuw ophalen uit de GitHub-repo (sparse checkout van `course-materials`,

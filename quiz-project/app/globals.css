@@ -35,8 +35,43 @@ body {
   animation: fade-in 0.35s ease-out;
 }
 
+/* Confetti burst on the result screen */
+.confetti {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.confetti span {
+  position: absolute;
+  top: -24px;
+  opacity: 0;
+  animation-name: confetti-fall;
+  animation-timing-function: cubic-bezier(0.25, 0.6, 0.45, 1);
+  animation-fill-mode: forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--drift), 105vh) rotate(var(--spin));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fade-in {
     animation: none;
+  }
+  .confetti {
+    display: none;
   }
 }

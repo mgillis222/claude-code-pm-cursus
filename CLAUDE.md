@@ -37,6 +37,12 @@ met een slash-commando, bijvoorbeeld `/start-1-1`. Daarna leidt Claude je intera
   levert geen miniaturen mee voor de startstijlen (ook niet in de GitHub-geschiedenis); 14 zijn zelf gemaakt.
   Bekijk de bibliotheek in de gewone browser, het browserpaneel van de app toont geen lokale plaatjes.
 - `style_extract.py`: model aangepast naar `gemini-3.1-pro-preview` (`gemini-2.5-pro` is niet meer beschikbaar).
+- Module 4 (koffiequiz): Next.js-app in `quiz-project/`, specificatie in `quiz-project/REQUIREMENTS.md`.
+  Node.js (LTS via nvm) staat alleen in WSL; in scripts eerst `source ~/.nvm/nvm.sh`. Starten via
+  `.claude/launch.json` ("koffiequiz", poort 3000). `next.config.ts` gebruikt polling, anders komen wijzigingen
+  vanuit WSL op /mnt/c niet door.
+- Les 4.4 (2026-10-12): geen eigen repository voor de quiz; die blijft in deze cursusrepo. Bij Vercel (4.5) dus
+  de Root Directory op `quiz-project` zetten. `gh` is niet gebruikt.
 
 ## Kosten
 - De lessen zelf vallen onder het Claude-abonnement.

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style 3 - Bold</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #0b0b0b; color: #f5f5f5; font-family: 'Space Grotesk', sans-serif;
+    display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .label { position: fixed; top: 16px; left: 16px; background: #d4ff00; color: #000; padding: 4px 10px; font-weight: 700; font-size: 13px; }
+  .card { max-width: 640px; width: 100%; }
+  .num { font-family: 'Anton', sans-serif; font-size: 120px; line-height: .8; color: #d4ff00; }
+  .num small { font-size: 32px; color: #555; }
+  h1 { font-family: 'Anton', sans-serif; font-size: 48px; line-height: 1.05; text-transform: uppercase; margin: 20px 0 36px; letter-spacing: .01em; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 36px; } }
+  .opt { background: #1a1a1a; color: #f5f5f5; border: 2px solid #333; padding: 22px 18px; font: inherit; font-size: 17px;
+    font-weight: 700; text-align: left; cursor: pointer; transition: all .15s; }
+  .opt:hover { background: #d4ff00; color: #000; border-color: #d4ff00; }
+  .opt em { display: block; font-style: normal; font-weight: 400; color: #777; font-size: 13px; margin-bottom: 6px; }
+  .opt:hover em { color: #000; }
+</style>
+</head>
+<body>
+<div class="label">#3 BOLD &amp; DRAMATIC</div>
+<div class="card">
+  <div class="num">02<small>/05</small></div>
+  <h1>Which Hogwarts house would the Sorting Hat pick for you?</h1>
+  <div class="grid">
+    <button class="opt"><em>A</em>Gryffindor, obviously</button>
+    <button class="opt"><em>B</em>Hufflepuff, the cozy common room</button>
+    <button class="opt"><em>C</em>Slytherin, where all the parties are</button>
+    <button class="opt"><em>D</em>Ravenclaw, reading all night</button>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style 1 - Playful</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: 'Fredoka', sans-serif; padding: 24px;
+    background: radial-gradient(circle at 20% 20%, #ffd6e8 0, transparent 40%),
+                radial-gradient(circle at 80% 30%, #c6f6ff 0, transparent 40%),
+                radial-gradient(circle at 50% 90%, #fff3b0 0, transparent 45%), #fdf7ff;
+  }
+  .label { position: fixed; top: 16px; left: 16px; background: #222; color: #fff; padding: 6px 14px; border-radius: 999px; font-size: 14px; }
+  .card { background: #fff; border-radius: 32px; padding: 36px; max-width: 560px; width: 100%;
+    box-shadow: 0 12px 0 #ff7eb6, 0 24px 40px rgba(0,0,0,.08); border: 4px solid #222; }
+  .progress { display: flex; gap: 8px; margin-bottom: 20px; }
+  .progress span { flex: 1; height: 12px; border-radius: 999px; background: #eee; border: 2px solid #222; }
+  .progress span.done { background: #ffcf3f; }
+  .tag { display: inline-block; background: #7c5cff; color: #fff; padding: 4px 14px; border-radius: 999px; font-weight: 600; transform: rotate(-3deg); }
+  h1 { font-size: 30px; margin: 14px 0 24px; color: #222; }
+  .opt { display: block; width: 100%; text-align: left; font: inherit; font-size: 19px; font-weight: 600;
+    padding: 16px 20px; margin-bottom: 14px; border-radius: 20px; border: 3px solid #222; cursor: pointer;
+    transition: transform .15s; }
+  .opt:hover { transform: translateY(-3px) rotate(-1deg); }
+  .a { background: #ff9ecb; } .b { background: #9be7ff; } .c { background: #ffe57a; } .d { background: #b9f5a6; }
+</style>
+</head>
+<body>
+<div class="label">#1 Playful &amp; colorful</div>
+<div class="card">
+  <div class="progress"><span class="done"></span><span class="done"></span><span></span><span></span><span></span></div>
+  <span class="tag">Question 2 of 5 ☕</span>
+  <h1>Which Hogwarts house would the Sorting Hat pick for you?</h1>
+  <button class="opt a">🦁 Gryffindor, obviously</button>
+  <button class="opt b">🦡 Hufflepuff, the cozy common room</button>
+  <button class="opt c">🐍 Slytherin, where all the parties are</button>
+  <button class="opt d">🦅 Ravenclaw, reading all night</button>
+</div>
+</body>
+</html>

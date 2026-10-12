@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style 4 - Warm</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; font-family: 'Nunito', sans-serif; color: #3b2a20;
+    background: linear-gradient(160deg, #f6e7d4 0%, #e9c9a6 55%, #c98e62 100%);
+    display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .label { position: fixed; top: 16px; left: 16px; background: rgba(59,42,32,.85); color: #f6e7d4; padding: 6px 14px; border-radius: 8px; font-size: 14px; }
+  .card { background: #fffaf3; border-radius: 18px; padding: 40px 36px; max-width: 560px; width: 100%;
+    box-shadow: 0 20px 50px rgba(90,50,20,.25); position: relative; }
+  .steam { position: absolute; top: -26px; left: 50%; transform: translateX(-50%); font-size: 40px; }
+  .step { text-align: center; color: #a0714f; font-size: 14px; letter-spacing: .05em; }
+  .dots { display: flex; justify-content: center; gap: 8px; margin: 10px 0 24px; }
+  .dots span { width: 10px; height: 10px; border-radius: 50%; background: #ead7c3; }
+  .dots span.on { background: #8b5a3c; }
+  h1 { font-family: 'Fraunces', serif; font-weight: 700; font-size: 28px; text-align: center; line-height: 1.3; margin: 0 0 28px; }
+  .opt { display: block; width: 100%; font: inherit; font-size: 17px; text-align: left; padding: 16px 20px; margin-bottom: 12px;
+    background: #f7ece0; border: 1px solid #ead7c3; border-radius: 12px; color: #3b2a20; cursor: pointer; transition: all .2s; }
+  .opt:hover { background: #8b5a3c; color: #fffaf3; border-color: #8b5a3c; }
+</style>
+</head>
+<body>
+<div class="label">#4 Warm &amp; cozy</div>
+<div class="card">
+  <div class="steam">☕</div>
+  <div class="step">Question 2 of 5</div>
+  <div class="dots"><span class="on"></span><span class="on"></span><span></span><span></span><span></span></div>
+  <h1>Which Hogwarts house would the Sorting Hat pick for you?</h1>
+  <button class="opt">Gryffindor, obviously</button>
+  <button class="opt">Hufflepuff, the cozy common room</button>
+  <button class="opt">Slytherin, where all the parties are</button>
+  <button class="opt">Ravenclaw, reading all night</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style 2 - Minimal</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #fafafa; color: #111; font-family: 'Inter', sans-serif;
+    display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .label { position: fixed; top: 16px; left: 16px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #999; }
+  .card { max-width: 520px; width: 100%; }
+  .step { font-size: 13px; color: #999; letter-spacing: .08em; text-transform: uppercase; }
+  .bar { height: 1px; background: #e5e5e5; margin: 14px 0 48px; }
+  .bar div { height: 1px; width: 40%; background: #111; }
+  h1 { font-weight: 300; font-size: 32px; line-height: 1.3; margin: 0 0 40px; }
+  .opt { display: flex; justify-content: space-between; width: 100%; background: none; border: none;
+    border-top: 1px solid #e5e5e5; padding: 20px 0; font: inherit; font-size: 17px; color: #111; cursor: pointer; text-align: left; }
+  .opt:last-child { border-bottom: 1px solid #e5e5e5; }
+  .opt span { color: #ccc; transition: color .2s, transform .2s; }
+  .opt:hover span { color: #111; transform: translateX(4px); }
+</style>
+</head>
+<body>
+<div class="label">#2 Minimal &amp; clean</div>
+<div class="card">
+  <div class="step">Question 2 / 5</div>
+  <div class="bar"><div></div></div>
+  <h1>Which Hogwarts house would the Sorting Hat pick for you?</h1>
+  <button class="opt">Gryffindor, obviously <span>→</span></button>
+  <button class="opt">Hufflepuff, the cozy common room <span>→</span></button>
+  <button class="opt">Slytherin, where all the parties are <span>→</span></button>
+  <button class="opt">Ravenclaw, reading all night <span>→</span></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Warm & cozy palette (from style-preview-4.html) */
+@theme inline {
+  --color-cream: #fffaf3;
+  --color-milk: #f7ece0;
+  --color-foam: #ead7c3;
+  --color-latte: #e9c9a6;
+  --color-caramel: #a0714f;
+  --color-espresso: #8b5a3c;
+  --color-roast: #6b4129;
+  --color-bean: #3b2a20;
+  --font-sans: var(--font-nunito);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  color: var(--color-bean);
+  font-family: var(--font-nunito), sans-serif;
+  background: linear-gradient(160deg, #f6e7d4 0%, #e9c9a6 55%, #c98e62 100%) fixed;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.35s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    animation: none;
+  }
+}
